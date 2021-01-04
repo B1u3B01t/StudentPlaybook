@@ -1,0 +1,31 @@
+.div{
+    text-align: center;
+}
+
+.comingSoon{
+    font-family: "Poppins";
+    font-size: 10vw;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+}
+.description{
+    font-family: "Poppins";
+    font-size: 2vw;
+    margin-bottom: calc(25% - 10vh);
+
+}
+
+@media only screen and (max-width: 600px) {
+
+.comingSoon{
+    font-size: 15vw;
+    line-height: 1.2;
+    margin-top: 6vh;
+}
+
+.description{
+    font-size: 6vw;
+    margin: 7%;
+    margin-bottom: 15%;
+}
+}

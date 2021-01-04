@@ -1,0 +1,53 @@
+.popup{
+  display: none;
+  position: fixed;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+
+.app{
+    background-image: url('login_bg.jpeg');
+    /* height: 100vh; */
+    width: 100vw;
+    font-family: 'Poppins', sans-serif; 
+    overflow-x: hidden;   
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+  
+}
+
+#logo{
+    margin: 2%;
+    width: 7vw;
+    z-index: 500;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 25px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+@media only screen and (max-width: 500px) {
+    #logo{
+        margin: 5%;
+        width: 20vw;
+    }
+}
